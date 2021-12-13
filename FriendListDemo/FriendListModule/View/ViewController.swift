@@ -46,11 +46,44 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        viewModel.load { (result) in
+        self.loadList()
+    }
+    
+    private func loadList(for retryCount: Int = 0){
+        
+        viewModel.load { [weak self] result in
             switch result{
-                case .success(let friends): self.friends = friends
-                case .failure(_): self.friends = []
+                case .success(let list): self?.friends = list
+                case .failure(let error):
+                    switch retryCount {
+                        case let count where count == 2:
+                            self?.show(error)
+                        default:
+                            self?.loadList(for: retryCount + 1)
+                    }
             }
+        }
+    }
+    
+    private func show(_ error: ServiceError<ErrorState>) -> Void{
+        var errorMessage = ""
+        switch error {
+            case .failure(let errorType):
+                switch errorType {
+                    case .invalid: errorMessage = "invalid"
+                    case .nodata: errorMessage = "nodata"
+                    case .unknown: errorMessage = "unknown"
+                }
+            case .success: break
+        }
+        
+        let errorAlert = UIAlertController(title: "Alert", message: "\(errorMessage) error", preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "OK", style: .destructive) { _ in
+            
+        }
+        errorAlert.addAction(cancel)
+        self.present(errorAlert, animated: true) {
+            
         }
     }
     
