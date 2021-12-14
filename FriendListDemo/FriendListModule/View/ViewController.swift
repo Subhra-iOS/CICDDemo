@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.loadList()
+        self.loadList(for: 3)
     }
     
     private func loadList(for retryCount: Int = 0){
@@ -56,10 +56,10 @@ class ViewController: UIViewController {
                 case .success(let list): self?.friends = list
                 case .failure(let error):
                     switch retryCount {
-                        case let count where count == 2:
+                        case let count where count == 1:
                             self?.show(error)
                         default:
-                            self?.loadList(for: retryCount + 1)
+                            self?.loadList(for: retryCount - 1)
                     }
             }
         }
