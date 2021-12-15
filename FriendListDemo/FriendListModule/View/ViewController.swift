@@ -7,6 +7,7 @@
 
 import UIKit
 import AppCenterCrashes
+import AppCenterAnalytics
 
 private let cellIdentifier = "cell_identifier"
 
@@ -100,6 +101,7 @@ class ViewController: UIViewController {
     
     @objc private func refresh(){
         //Crashes.generateTestCrash()
+        Analytics.trackEvent("refresh_list")
     }
 
 }
