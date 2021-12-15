@@ -6,6 +6,7 @@
 //  Comment by new collaborator
 
 import UIKit
+import AppCenterCrashes
 
 private let cellIdentifier = "cell_identifier"
 
@@ -47,6 +48,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.loadList(for: 3)
+       // Crashes.generateTestCrash()
     }
     
     private func loadList(for retryCount: Int = 0){
