@@ -190,7 +190,7 @@ private class TestableFriendListViewController: ViewController{
     var errorMessage: String!
         
     override func viewWillAppear(_ animated: Bool) {
-        self.loadList()
+        self.loadList(for: 3)
     }
     
     func simulateViewWillAppear(){
@@ -215,10 +215,10 @@ private class TestableFriendListViewController: ViewController{
                 case .success(let list): self?.friendList = list
                 case .failure(let error):
                     switch retryCount {
-                        case let count where count == 2:
+                        case let count where count == 1:
                             self?.show(error)
                         default:
-                            self?.loadList(for: retryCount + 1)
+                            self?.loadList(for: retryCount - 1)
                     }
             }
         }
