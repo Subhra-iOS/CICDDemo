@@ -15,6 +15,18 @@
 		2A77F10527673F6F003B0365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A77F10327673F6F003B0365 /* LaunchScreen.storyboard */; };
 		2A77F11027673F70003B0365 /* FriendListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F10F27673F70003B0365 /* FriendListDemoTests.swift */; };
 		2A77F11B27673F70003B0365 /* FriendListDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F11A27673F70003B0365 /* FriendListDemoUITests.swift */; };
+		2A77F12F27674162003B0365 /* FriendListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F12E27674162003B0365 /* FriendListTest.swift */; };
+		2A77F13F27674924003B0365 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F13E27674924003B0365 /* FriendsViewModel.swift */; };
+		2A77F14027674924003B0365 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F13E27674924003B0365 /* FriendsViewModel.swift */; };
+		2A77F14527674954003B0365 /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F14427674954003B0365 /* ListProtocol.swift */; };
+		2A77F14627674954003B0365 /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F14427674954003B0365 /* ListProtocol.swift */; };
+		2A77F14B276749B8003B0365 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F14A276749B8003B0365 /* ServiceManager.swift */; };
+		2A77F14C276749B8003B0365 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F14A276749B8003B0365 /* ServiceManager.swift */; };
+		2A77F151276749D6003B0365 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F150276749D6003B0365 /* ServiceProtocol.swift */; };
+		2A77F1572767553D003B0365 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F1562767553D003B0365 /* Friends.swift */; };
+		2A77F1582767553D003B0365 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F1562767553D003B0365 /* Friends.swift */; };
+		2A77F15F276762E4003B0365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0FC27673F6D003B0365 /* ViewController.swift */; };
+		2A77F181276785E6003B0365 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F150276749D6003B0365 /* ServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,12 @@
 		2A77F11627673F70003B0365 /* FriendListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A77F11A27673F70003B0365 /* FriendListDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListDemoUITests.swift; sourceTree = "<group>"; };
 		2A77F11C27673F70003B0365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A77F12E27674162003B0365 /* FriendListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTest.swift; sourceTree = "<group>"; };
+		2A77F13E27674924003B0365 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		2A77F14427674954003B0365 /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocol.swift; sourceTree = "<group>"; };
+		2A77F14A276749B8003B0365 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		2A77F150276749D6003B0365 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		2A77F1562767553D003B0365 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,7 @@
 			children = (
 				2A77F0F827673F6D003B0365 /* AppDelegate.swift */,
 				2A77F0FA27673F6D003B0365 /* SceneDelegate.swift */,
-				2A77F0FC27673F6D003B0365 /* ViewController.swift */,
+				2A77F13327674261003B0365 /* FriendListModule */,
 				2A77F0FE27673F6D003B0365 /* Main.storyboard */,
 				2A77F10127673F6F003B0365 /* Assets.xcassets */,
 				2A77F10327673F6F003B0365 /* LaunchScreen.storyboard */,
@@ -114,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2A77F10F27673F70003B0365 /* FriendListDemoTests.swift */,
+				2A77F12E27674162003B0365 /* FriendListTest.swift */,
 				2A77F11127673F70003B0365 /* Info.plist */,
 			);
 			path = FriendListDemoTests;
@@ -126,6 +145,51 @@
 				2A77F11C27673F70003B0365 /* Info.plist */,
 			);
 			path = FriendListDemoUITests;
+			sourceTree = "<group>";
+		};
+		2A77F13327674261003B0365 /* FriendListModule */ = {
+			isa = PBXGroup;
+			children = (
+				2A77F13A27674288003B0365 /* NetworkLayer */,
+				2A77F13927674281003B0365 /* Model */,
+				2A77F13827674278003B0365 /* ViewModel */,
+				2A77F1342767426F003B0365 /* View */,
+			);
+			path = FriendListModule;
+			sourceTree = "<group>";
+		};
+		2A77F1342767426F003B0365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A77F0FC27673F6D003B0365 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A77F13827674278003B0365 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A77F13E27674924003B0365 /* FriendsViewModel.swift */,
+				2A77F14427674954003B0365 /* ListProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A77F13927674281003B0365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A77F1562767553D003B0365 /* Friends.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A77F13A27674288003B0365 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2A77F14A276749B8003B0365 /* ServiceManager.swift */,
+				2A77F150276749D6003B0365 /* ServiceProtocol.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A77F13F27674924003B0365 /* FriendsViewModel.swift in Sources */,
 				2A77F0FD27673F6D003B0365 /* ViewController.swift in Sources */,
 				2A77F0F927673F6D003B0365 /* AppDelegate.swift in Sources */,
+				2A77F1572767553D003B0365 /* Friends.swift in Sources */,
 				2A77F0FB27673F6D003B0365 /* SceneDelegate.swift in Sources */,
+				2A77F14527674954003B0365 /* ListProtocol.swift in Sources */,
+				2A77F151276749D6003B0365 /* ServiceProtocol.swift in Sources */,
+				2A77F14B276749B8003B0365 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A77F11027673F70003B0365 /* FriendListDemoTests.swift in Sources */,
+				2A77F1582767553D003B0365 /* Friends.swift in Sources */,
+				2A77F12F27674162003B0365 /* FriendListTest.swift in Sources */,
+				2A77F181276785E6003B0365 /* ServiceProtocol.swift in Sources */,
+				2A77F14027674924003B0365 /* FriendsViewModel.swift in Sources */,
+				2A77F14627674954003B0365 /* ListProtocol.swift in Sources */,
+				2A77F15F276762E4003B0365 /* ViewController.swift in Sources */,
+				2A77F14C276749B8003B0365 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
 				INFOPLIST_FILE = FriendListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
 				INFOPLIST_FILE = FriendListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
