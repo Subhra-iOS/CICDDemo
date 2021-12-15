@@ -48,7 +48,6 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.loadList(for: 3)
-       // Crashes.generateTestCrash()
     }
     
     private func loadList(for retryCount: Int = 0){
@@ -96,6 +95,11 @@ class ViewController: UIViewController {
         self.friendListTable.delegate = self
         
         self.friendListTable.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.refresh, target: self, action: #selector(refresh))
+    }
+    
+    @objc private func refresh(){
+        //Crashes.generateTestCrash()
     }
 
 }
