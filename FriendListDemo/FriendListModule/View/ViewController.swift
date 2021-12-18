@@ -3,7 +3,7 @@
 //  FriendListDemo
 //
 //  Created by Subhra Roy on 13/12/21.
-//  Comment by new collaborator
+//  
 
 import UIKit
 import AppCenterCrashes
