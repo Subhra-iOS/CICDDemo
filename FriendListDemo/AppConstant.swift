@@ -9,6 +9,6 @@ import Foundation
 
 enum AppConstant{
     enum AppCenter{
-        static let secretKey = "7df091e4-88eb-4991-a0e2-42e7bd514187"
+        static let secretKey = "b123fcf9-2b2d-449b-a7cd-9b6f34f1ba53" //"7df091e4-88eb-4991-a0e2-42e7bd514187"
     }
 }
