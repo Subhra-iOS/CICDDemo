@@ -102,6 +102,7 @@ class ViewController: UIViewController {
     @objc private func refresh(){
         //Crashes.generateTestCrash()
         Analytics.trackEvent("refresh_list")
+        self.loadList(for: 2)
     }
 
 }
