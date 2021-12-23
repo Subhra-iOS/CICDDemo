@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1BA2237C9AA4F679726DF139 /* Pods_FriendListDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C7F86C073B14E59DBE68D /* Pods_FriendListDemo.framework */; };
+		2A0579042774CB4800ADB0F6 /* libswiftCompatibility51.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */; };
+		2A0579052774CB4800ADB0F6 /* libswiftCompatibility51.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */; };
+		2A0579062774CB4800ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */; };
+		2A0579072774CB4800ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */; };
+		2A0579082774CB4800ADB0F6 /* libswiftCompatibility50.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */; };
+		2A0579092774CB4800ADB0F6 /* libswiftCompatibility50.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */; };
+		2A05790E2774CB8500ADB0F6 /* libswiftCompatibility50.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */; };
+		2A05790F2774CB8500ADB0F6 /* libswiftCompatibility51.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */; };
+		2A0579102774CB8500ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */; };
 		2A77F0F927673F6D003B0365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0F827673F6D003B0365 /* AppDelegate.swift */; };
 		2A77F0FB27673F6D003B0365 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0FA27673F6D003B0365 /* SceneDelegate.swift */; };
 		2A77F0FD27673F6D003B0365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0FC27673F6D003B0365 /* ViewController.swift */; };
@@ -50,9 +59,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2A05790D2774CB7700ADB0F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A05790E2774CB8500ADB0F6 /* libswiftCompatibility50.a in CopyFiles */,
+				2A05790F2774CB8500ADB0F6 /* libswiftCompatibility51.a in CopyFiles */,
+				2A0579102774CB8500ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		17B9E45EE206581F7DB294C7 /* Pods-FriendListDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendListDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendListDemoTests/Pods-FriendListDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		27A1B902CEF47194BF052090 /* Pods-FriendListDemo-FriendListDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendListDemo-FriendListDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FriendListDemo-FriendListDemoUITests/Pods-FriendListDemo-FriendListDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswiftCompatibility51.a; sourceTree = "<group>"; };
+		2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswiftCompatibilityDynamicReplacements.a; sourceTree = "<group>"; };
+		2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswiftCompatibility50.a; sourceTree = "<group>"; };
 		2A77F0F527673F6D003B0365 /* FriendListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A77F0F827673F6D003B0365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A77F0FA27673F6D003B0365 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +123,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0579042774CB4800ADB0F6 /* libswiftCompatibility51.a in Frameworks */,
+				2A0579062774CB4800ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in Frameworks */,
 				67A69BA419CC00254AFFD4D0 /* Pods_FriendListDemoTests.framework in Frameworks */,
+				2A0579082774CB4800ADB0F6 /* libswiftCompatibility50.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0579052774CB4800ADB0F6 /* libswiftCompatibility51.a in Frameworks */,
+				2A0579072774CB4800ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in Frameworks */,
 				9A33AB5A85534D5F456BEE36 /* Pods_FriendListDemo_FriendListDemoUITests.framework in Frameworks */,
+				2A0579092774CB4800ADB0F6 /* libswiftCompatibility50.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +261,9 @@
 		D8CEB079BEE712BD676AEC4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */,
+				2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */,
+				2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */,
 				494C7F86C073B14E59DBE68D /* Pods_FriendListDemo.framework */,
 				A90B3DFAF24D8CDADDBE943B /* Pods_FriendListDemo_FriendListDemoUITests.framework */,
 				B9316B9E890E7CEB5F31930A /* Pods_FriendListDemoTests.framework */,
@@ -283,6 +319,7 @@
 				2A77F11227673F70003B0365 /* Sources */,
 				2A77F11327673F70003B0365 /* Frameworks */,
 				2A77F11427673F70003B0365 /* Resources */,
+				2A05790D2774CB7700ADB0F6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -682,6 +719,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.FriendListDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -705,6 +746,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.FriendListDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -726,6 +771,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.FriendListDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -746,6 +795,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.FriendListDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
