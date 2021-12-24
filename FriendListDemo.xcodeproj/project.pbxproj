@@ -17,6 +17,9 @@
 		2A05790E2774CB8500ADB0F6 /* libswiftCompatibility50.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */; };
 		2A05790F2774CB8500ADB0F6 /* libswiftCompatibility51.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */; };
 		2A0579102774CB8500ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */; };
+		2A736D5B2775E5A1007B3934 /* libswiftCompatibility50.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579032774CB4800ADB0F6 /* libswiftCompatibility50.a */; };
+		2A736D5C2775E5A1007B3934 /* libswiftCompatibility51.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579012774CB4600ADB0F6 /* libswiftCompatibility51.a */; };
+		2A736D5D2775E5A1007B3934 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A0579022774CB4700ADB0F6 /* libswiftCompatibilityDynamicReplacements.a */; };
 		2A77F0F927673F6D003B0365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0F827673F6D003B0365 /* AppDelegate.swift */; };
 		2A77F0FB27673F6D003B0365 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0FA27673F6D003B0365 /* SceneDelegate.swift */; };
 		2A77F0FD27673F6D003B0365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77F0FC27673F6D003B0365 /* ViewController.swift */; };
@@ -69,6 +72,18 @@
 				2A05790E2774CB8500ADB0F6 /* libswiftCompatibility50.a in CopyFiles */,
 				2A05790F2774CB8500ADB0F6 /* libswiftCompatibility51.a in CopyFiles */,
 				2A0579102774CB8500ADB0F6 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A736D5A2775E592007B3934 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A736D5B2775E5A1007B3934 /* libswiftCompatibility50.a in CopyFiles */,
+				2A736D5C2775E5A1007B3934 /* libswiftCompatibility51.a in CopyFiles */,
+				2A736D5D2775E5A1007B3934 /* libswiftCompatibilityDynamicReplacements.a in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +315,7 @@
 				2A77F10727673F70003B0365 /* Sources */,
 				2A77F10827673F70003B0365 /* Frameworks */,
 				2A77F10927673F70003B0365 /* Resources */,
+				2A736D5A2775E592007B3934 /* CopyFiles */,
 			);
 			buildRules = (
 			);
