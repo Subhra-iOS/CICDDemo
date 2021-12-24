@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c137718c03cae96eb55f424d77115211"
+build_time: [1640273076, 727544000]
+inputs:
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemoTests/FriendListDemoTests.swift": [1639385072, 230149269]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/Model/Friends.swift": [1639393720, 425676045]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemoTests/FriendListTest.swift": [1639462230, 544327267]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/NetworkLayer/ServiceProtocol.swift": [1639403113, 90535493]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/ViewModel/FriendsViewModel.swift": [1639393843, 873437838]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/ViewModel/ListProtocol.swift": [1639393868, 33379658]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/View/ViewController.swift": [1639824895, 800868828]
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemo/FriendListModule/NetworkLayer/ServiceManager.swift": [1639393749, 169178573]

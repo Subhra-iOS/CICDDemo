@@ -1,0 +1,261 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JsonDecodeError"
+- "DecodableProtocol"
+- "Friend"
+provides-nominal:
+- "19FriendListDemoTests15JsonDecodeErrorO"
+- "19FriendListDemoTests17DecodableProtocolP"
+- "19FriendListDemoTests0A0V"
+provides-member:
+- ["19FriendListDemoTests15JsonDecodeErrorO", ""]
+- ["19FriendListDemoTests17DecodableProtocolP", ""]
+- ["19FriendListDemoTests0A0V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Codable"
+- "DecodableProtocol"
+- "Double"
+- "Error"
+- !private "FloatLiteralType"
+- "Friend"
+- !private "IntegerLiteralType"
+- "JsonDecodeError"
+- "String"
+- !private "StringLiteralType"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "email"]
+- ["Se", "encode"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "phone"]
+- !private ["Se", "username"]
+- !private ["Se", "website"]
+- ["19FriendListDemoTests17DecodableProtocolP", "Friend"]
+- ["19FriendListDemoTests17DecodableProtocolP", "decodJson"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "email"]
+- ["SE", "encode"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "phone"]
+- !private ["SE", "username"]
+- !private ["SE", "website"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "code"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "domain"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "userInfo"]
+- ["19FriendListDemoTests0A0V", "CodingKeys"]
+- ["19FriendListDemoTests0A0V", "Double"]
+- ["19FriendListDemoTests0A0V", "String"]
+- ["19FriendListDemoTests0A0V", ""]
+- ["19FriendListDemoTests0A0V", "email"]
+- ["19FriendListDemoTests0A0V", "encode"]
+- ["19FriendListDemoTests0A0V", "id"]
+- ["19FriendListDemoTests0A0V", "init"]
+- ["19FriendListDemoTests0A0V", "name"]
+- ["19FriendListDemoTests0A0V", "phone"]
+- ["19FriendListDemoTests0A0V", "username"]
+- ["19FriendListDemoTests0A0V", "website"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "code"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "domain"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "=="]
+- ["19FriendListDemoTests15JsonDecodeErrorO", ""]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "__derived_enum_equals"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "_code"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "_domain"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "_getEmbeddedNSError"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "_rawHashValue"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "_userInfo"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "code"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "domain"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "hash"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "hashValue"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "none"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "parseError"]
+- ["19FriendListDemoTests15JsonDecodeErrorO", "userInfo"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "19FriendListDemoTests17DecodableProtocolP"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s5ErrorP"
+- "19FriendListDemoTests0A0V"
+- "SH"
+- !private "s6HasherV"
+- "19FriendListDemoTests15JsonDecodeErrorO"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/FriendListDemo.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/XCTest.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACDevice.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACService.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACEnable.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACStackFrame.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACCrashHandlerSetupDelegate.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACAnalyticsAuthenticationProviderDelegate.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACCrashesDelegate.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACLog.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACAbstractLog.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACErrorAttachmentLog.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACEventLog.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACWrapperSdk.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACExceptionModel.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACWrapperExceptionModel.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACChannelProtocol.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACChannelGroupProtocol.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACAnalyticsAuthenticationProvider.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACLogger.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACWrapperLogger.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACWrapperCrashesHelper.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/AppCenter.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACAppCenter.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACPropertyConfigurator.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACAnalytics.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/AppCenterAnalytics.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACCrashes.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/AppCenterCrashes.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACLogWithNameAndProperties.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACLogWithProperties.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACEventProperties.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACConstants+Flags.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACAppCenterErrors.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACConstants.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACServiceAbstract.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Headers/MSACSerializableObject.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Headers/MSACAnalyticsTransmissionTarget.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACErrorReport.h"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Headers/MSACErrorAttachmentLog+Utility.h"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenter/AppCenter.framework/Modules/module.modulemap"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterAnalytics/AppCenterAnalytics.framework/Modules/module.modulemap"
+- "/Users/arc/Desktop/POC/GitHub/CICDDemo/DerivedData/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/AppCenterCrashes/AppCenterCrashes.framework/Modules/module.modulemap"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "74392357fee411eb953c8a0c93f36ca2"
