@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "2c436c9c12431d692866b4dbc5916aaf"
+build_time: [1640273076, 593420000]
+inputs:
+  "/Users/arc/Desktop/POC/GitHub/CICDDemo/FriendListDemoUITests/FriendListDemoUITests.swift": [1640258737, 880593417]
