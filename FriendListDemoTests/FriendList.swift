@@ -3,7 +3,7 @@
 //  FriendListDemoTests
 //
 //  Created by Subhra Roy on 13/12/21.
-//  This is a test file
+//  
 
 /**
  - Load Friends from API on viewWillAppear
